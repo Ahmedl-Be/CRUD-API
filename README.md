@@ -26,14 +26,14 @@ To get started with the API, follow these steps:
 3. Install the dependencies using NPM: npm install
 4. Start the API: npm start
 
-##API Endpoints
+## API Endpoints
 
 The following endpoints are available for interacting with the API:
 
 | Endpoint      | HTTP Method | Description                   |
 | ------------- | ----------- | ----------------------------- |
 | `/api/courses` | GET         | Retrieve all courses        |
-| `/api/courses/:courseId` | GET     | Retrieve a specific resource  |
+| `/api/courses/:courseId` | GET     | Retrieve a specific course  |
 | `/api/courses` | POST        | Create a new course         |
 | `/api/courses/:courseId` | PUT     | Update a specific course    |
 | `/api/courses/:courseId` | DELETE  | Delete a specific course    |
