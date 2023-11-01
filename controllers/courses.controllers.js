@@ -26,7 +26,6 @@ const getSingleCourse = asyncWrapper(
     }
 )
 
-
 const createNewCourse = asyncWrapper(
     async (req, res, next) => {
         const errors = validationResult(req)
