@@ -35,8 +35,9 @@ const register = asyncWrapper(
             email,
             password: hashedPassword,
             role,
-            avatar: req.file.filename
+            avatar: req.body.avatar
         })
+        console.log("avater",req.body.avatar)
         // generate JWT token
         const token = await generateJwt({
             email: newUser.email,
