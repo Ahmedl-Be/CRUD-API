@@ -1,6 +1,6 @@
 # CRUD API with User Registration and Authentication
 
-This repository contains a CRUD (Create, Read, Update, Delete) API for user management, including user registration and authentication. It also features role-based permissions where some users have the ability to access and manipulate user data and create/delete courses, while others have different specific permissions.
+This repository contains a CRUD (Create, Read, Update, Delete) API for courses management, including user registration and authentication. It also features role-based permissions where some users have the ability to access and manipulate user data and create/delete courses, while others have different specific permissions.
 
 The project is built using Node.js and Express.js for the backend, with MongoDB as the database. Various npm packages are used to enhance the functionality of the application, such as bcryptjs for password hashing, jsonwebtoken for authentication, mongoose for database modeling, express-validator for request validation, multer for handling file uploads, and more.
 
